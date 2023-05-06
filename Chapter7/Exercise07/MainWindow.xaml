@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-       
+        <TextBlock HorizontalAlignment="Center" Height="32" Margin="0,27,0,0" TextWrapping="Wrap" Text="" Name="displayTextBlock" VerticalAlignment="Top" Width="320"/>
+        <Button Content="1" Click="numberClicked" HorizontalAlignment="Left" Height="35" Margin="86,81,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="2" Click="numberClicked" HorizontalAlignment="Left" Height="38" Margin="86,135,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="3" Click="numberClicked" HorizontalAlignment="Left" Height="40" Margin="86,198,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="4" Click="numberClicked" HorizontalAlignment="Left" Height="41" Margin="86,263,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="5" Click="numberClicked" HorizontalAlignment="Left" Height="35" Margin="194,81,0,0" VerticalAlignment="Top" Width="68"/>
+        <Button Content="6" Click="numberClicked" HorizontalAlignment="Left" Height="38" Margin="194,135,0,0" VerticalAlignment="Top" Width="68"/>
+        <Button Content="7" Click="numberClicked" HorizontalAlignment="Left" Height="38" Margin="194,198,0,0" VerticalAlignment="Top" Width="68"/>
+        <Button Content="8" Click="numberClicked" HorizontalAlignment="Left" Height="35" Margin="287,81,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="9" Click="numberClicked" HorizontalAlignment="Left" Height="38" Margin="287,135,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="0" Click="numberClicked" HorizontalAlignment="Left" Height="40" Margin="287,198,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="+" Name="plusOperatorButton" Click="operatorButton_Click" HorizontalAlignment="Left" Height="40" Margin="425,79,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button Content="-" Name="minusOperatorButton" Click="operatorButton_Click" HorizontalAlignment="Left" Height="40" Margin="425,140,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button Content="=" Name="evaluateButton" Click="operatorButton_Click" HorizontalAlignment="Left" Height="42" Margin="425,198,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button Content="Clear" Name="clearButton" Click="clearButtonClicked" HorizontalAlignment="Left" Height="41" Margin="340,258,0,0" VerticalAlignment="Top" Width="162"/>
+
     </Grid>
 </Window>

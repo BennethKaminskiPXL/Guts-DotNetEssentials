@@ -24,5 +24,22 @@ namespace Exercise15
         {
             InitializeComponent();
         }
+
+        private void convertButton_Click(object sender, RoutedEventArgs e)
+        {
+            int totaalSeconden = Convert.ToInt32("3662");
+            ConvertSecondsToHoursMinutesSeconds(totaalSeconden, out int hours, out int  minutes, out int seconds);
+            resultBox.Text = $"{totaalSeconden} seconden is {hours} uur, {minutes} minuten en {seconds} seconden ";
+
+        }
+        private void ConvertSecondsToHoursMinutesSeconds(int totaalSeconden, out int hours, out int minutes, out int seconds)
+        {
+            hours = totaalSeconden / 3600;
+            totaalSeconden %= 3600;
+            minutes = totaalSeconden / 60;
+            totaalSeconden %= 60;
+            seconds = totaalSeconden;
+
+        }
     }
 }

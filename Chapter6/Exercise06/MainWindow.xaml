@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Canvas HorizontalAlignment="Left" Name="drawingCanvas" Height="273" Margin="52,22,0,0" VerticalAlignment="Top" Width="426">
+            <Rectangle Height="59" Name="minutesRectangle" Canvas.Left="48" Stroke="Black" Canvas.Top="50" Width="0"/>
+            <Rectangle Height="69" Name="secondsRectangle" Canvas.Left="48" Stroke="Black" Canvas.Top="144" Width="0"/>
+        </Canvas>
 
     </Grid>
 </Window>

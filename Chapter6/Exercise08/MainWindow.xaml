@@ -8,6 +8,12 @@
         Title="MainWindow" Height="350" Width="525"
         AutomationProperties.AutomationId="Window_6_8">
     <Grid>
-        
+        <Label Content="Naam:" Name="naam" HorizontalAlignment="Left" Height="39" Margin="25,80,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Paswoord:" Name="paswoord" HorizontalAlignment="Left" Height="49" Margin="25,167,0,0" VerticalAlignment="Top" Width="147"/>
+        <TextBox HorizontalAlignment="Left" Height="46" Margin="189,73,0,0" TextWrapping="Wrap" Text="" Name="nameTextBox" VerticalAlignment="Top" Width="210"/>
+        <PasswordBox Name="passwordBox" HorizontalAlignment="Left" Height="43" Margin="189,159,0,0" VerticalAlignment="Top" Width="210"/>
+        <Button Content="ok" Name="okButton" HorizontalAlignment="Left" Height="42" Margin="371,247,0,0" VerticalAlignment="Top" Width="101"/>
+        <Button Content="cancel" Name="cancelButton" HorizontalAlignment="Left" Height="42" Margin="84,247,0,0" VerticalAlignment="Top" Width="127"/>
+
     </Grid>
 </Window>

@@ -7,5 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="325" Width="305">
     <Grid>
+        <TextBox Name="randomTextBox" HorizontalAlignment="Left" Height="30" IsEnabled="False" Margin="116,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="116,104,0,0" IsEnabled="False" TextWrapping="Wrap" Text="" Name="SumTextBoxName" VerticalAlignment="Top" Width="117"/>
+        <TextBox HorizontalAlignment="Left" Height="46" Margin="116,177,0,0" TextWrapping="Wrap" IsEnabled="False" Text="" Name="AverageTextBoxName" VerticalAlignment="Top" Width="117"/>
+        <Button Content="Magic" Click="Magic_Click" Name="MagicButton" HorizontalAlignment="Left" Height="47" Margin="10,121,0,0" VerticalAlignment="Top" Width="72"/>
     </Grid>
 </Window>

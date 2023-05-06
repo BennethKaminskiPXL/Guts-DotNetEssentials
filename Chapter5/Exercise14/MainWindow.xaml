@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Bereken" Name="BerekenButton" Click="BerekenButton_Click" HorizontalAlignment="Left" Height="65" Margin="61,100,0,0" VerticalAlignment="Top" Width="163"/>
+        <TextBlock HorizontalAlignment="Left" Height="85" Margin="343,100,0,0" Name="resultBox" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="346"/>
+        <TextBox HorizontalAlignment="Left" Name="getal" Height="71" Margin="155,281,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="287"/>
 
     </Grid>
 </Window>

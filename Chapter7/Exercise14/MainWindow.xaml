@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-      
+        <Label Content="Naam:" Name="firstnameLabel" HorizontalAlignment="Left" Height="38" Margin="48,39,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label Content="Voornaam:" Name="lastnameLabel" HorizontalAlignment="Left" Height="35" Margin="48,97,0,0" VerticalAlignment="Top" Width="140"/>
+        <TextBox Name="firstNameTextbox" HorizontalAlignment="Left" Height="44" Margin="239,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="239,97,0,0" TextWrapping="Wrap" Text="" Name="lastNameTextBox" VerticalAlignment="Top" Width="179"/>
+        <GroupBox HorizontalAlignment="Left" Height="78" Header="Geslacht" Name="genderGroupBox" Margin="63,146,0,0" VerticalAlignment="Top" Width="282">
+            <Grid HorizontalAlignment="Left" Height="43" Margin="10,0,0,0" VerticalAlignment="Top" Width="260">
+                <RadioButton Content="Man" Name="maleRadioButton" HorizontalAlignment="Left" Height="17" Margin="10,10,0,0" VerticalAlignment="Top" Width="87"/>
+                <RadioButton Content="Vrouw" Name="femaleRadioButton" HorizontalAlignment="Left" Height="17" Margin="153,10,0,0" VerticalAlignment="Top" Width="97"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Left" Height="95" Header="Leeftijd" Margin="48,229,0,0" VerticalAlignment="Top" Width="467">
+            <Grid HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="457">
+                <RadioButton Content="tussen 18 en 30" HorizontalAlignment="Left" Height="17" Margin="10,10,0,0" VerticalAlignment="Top" Width="156"/>
+                <RadioButton Content="tussen 30 en 45" HorizontalAlignment="Left" Height="25" Margin="10,36,0,0" VerticalAlignment="Top" Width="156"/>
+                <RadioButton Content="tussen 45 en 60" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="158"/>
+                <RadioButton Content="ouder dan 60" HorizontalAlignment="Left" Height="19" Margin="273,42,0,0" VerticalAlignment="Top" Width="163"/>
+            </Grid>
+        </GroupBox>
+        <Button Content="Bereken" Name="berekenButton" Click="berekenButton_Click" HorizontalAlignment="Left" Height="47" Margin="381,167,0,0" VerticalAlignment="Top" Width="134"/>
+
     </Grid>
 </Window>

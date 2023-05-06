@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Button" Name="convertButton" Click="convertButton_Click" HorizontalAlignment="Left" Height="70" Margin="32,122,0,0" VerticalAlignment="Top" Width="128"/>
+        <TextBlock Name="resultBox" HorizontalAlignment="Left" Height="70" Margin="340,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="353"/>
+        <TextBlock Name="inputBox" HorizontalAlignment="Left" Height="73" Margin="271,291,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="335"/>
 
     </Grid>
 </Window>

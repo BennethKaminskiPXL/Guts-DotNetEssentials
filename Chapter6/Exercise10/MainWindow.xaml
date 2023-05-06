@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Exercise10"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
     <Grid>
-        
+        <Label Content="naam: " Name="labelName" HorizontalAlignment="Left" Height="39" Margin="25,80,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Paswoord:password" Name="password" HorizontalAlignment="Left" Height="49" Margin="25,167,0,0" VerticalAlignment="Top" Width="147"/>
+        <TextBox HorizontalAlignment="Left" Height="46" Margin="189,73,0,0" TextWrapping="Wrap" Text="" Name="nameTextBox" VerticalAlignment="Top" Width="210"/>
+        <PasswordBox Name="passwordBox" HorizontalAlignment="Left" Height="43" Margin="189,159,0,0" VerticalAlignment="Top" Width="210"/>
+        <Button Content="ok" Name="okButton" HorizontalAlignment="Left" Height="42" Margin="372,274,0,0" VerticalAlignment="Top" Width="101"/>
+        <Button Content="cancel" Name="cancelButton" HorizontalAlignment="Left" Height="42" Margin="88,268,0,0" VerticalAlignment="Top" Width="127"/>
+        <ProgressBar Name="progressBar" Minimum="0" Maximum="5" Value="0"  HorizontalAlignment="Left" Height="37" Margin="116,226,0,0" VerticalAlignment="Top" Width="366"/>
+
+
     </Grid>
 </Window>

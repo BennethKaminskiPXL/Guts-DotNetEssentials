@@ -6,4 +6,8 @@
         xmlns:local="clr-namespace:Exercise04"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Grid HorizontalAlignment="Center" Height="313" Margin="0,10,0,0" VerticalAlignment="Top" Width="505">
+        <Canvas Name="canvas" HorizontalAlignment="Center" Height="293" VerticalAlignment="Center" Width="485"/>
+    </Grid>
+
 </Window>

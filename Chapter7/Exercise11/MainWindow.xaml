@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
- 
+        <Label Content="" Name="randomLabel1" HorizontalAlignment="Left" Height="47" Margin="69,54,0,0" VerticalAlignment="Top" Width="220"/>
+        <Label Content="" Name="randomLabel2" HorizontalAlignment="Left" Height="69" Margin="69,143,0,0" VerticalAlignment="Top" Width="193"/>
+        <Button Content="Generator 1" Name="generatorButton1" Click="genButton1_Click" HorizontalAlignment="Left" Height="32" Margin="400,62,0,0" VerticalAlignment="Top" Width="81"/>
+        <Button Content="Generator 2" Name="generatorButton2" Click="genButton2_Click" HorizontalAlignment="Left" Height="31" Margin="400,136,0,0" VerticalAlignment="Top" Width="81"/>
+
     </Grid>
 </Window>

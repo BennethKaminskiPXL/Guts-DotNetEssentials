@@ -24,5 +24,20 @@ namespace Exercise14
         {
             InitializeComponent();
         }
+
+        private void BerekenButton_Click(object sender, RoutedEventArgs e)
+        {
+            int teConverterenGetal = Convert.ToInt32(getal.Text);
+            string geConverteerdeGetal = ConvertNumberToBinary(teConverterenGetal);
+            resultBox.Text = geConverteerdeGetal;
+        }
+
+        private string ConvertNumberToBinary(int teConverterenGetal)
+        {
+            string geConverteerdGetal = Convert.ToString(teConverterenGetal, 2);
+            return geConverteerdGetal;
+        }
+
+
     }
 }

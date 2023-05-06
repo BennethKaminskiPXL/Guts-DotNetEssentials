@@ -20,9 +20,28 @@ namespace Exercise07
     /// </summary>
     public partial class MainWindow : Window
     {
+        int _multiplicationNumber;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void sizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            _multiplicationNumber = Convert.ToInt32(sizeTextBox.Text);
+            for (int i = 1; i <= _multiplicationNumber; i++)
+            {
+                tableTextBox.Text += $"\t{i}";
+            }
+            tableTextBox.Text += "\t\n";
+            for (int i = 1; i <= _multiplicationNumber; i++)
+            {
+                tableTextBox.Text += $"\n{i}\t";
+                for (int j = 1; j <= _multiplicationNumber; j++)
+                {
+                    tableTextBox.Text += $"{j * i}\t";
+                }
+            }
         }
     }
 }
